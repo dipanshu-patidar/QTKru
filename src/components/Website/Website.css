@@ -1,0 +1,652 @@
+/* Home Custom CSS */
+.qtkaru-home-navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.qtkaru-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+.qtkaru-hero-section {
+    background: linear-gradient(135deg, #88BDF2 0%, #384959 100%);
+    min-height: 80vh;
+    position: relative;
+    overflow: hidden;
+    padding: 8.3rem 0;
+}
+
+.qtkaru-subheading {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    max-width: 480px;
+}
+
+.qtkaru-btn-outline {
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.qtkaru-btn-outline:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.qtkaru-dashboard-preview {
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+}
+
+.qtkaru-dashboard-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.qtkaru-circle-overlay {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    bottom: -200px;
+    right: -100px;
+    z-index: 1;
+}
+
+.qtkaru-btn-primary {
+    background: linear-gradient(135deg, #88BDF2 0%, #384959 100%);
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+}
+
+.qtkaru-btn-demo {
+    border: 1px solid #0d6efd;
+    color: #384959;
+    background: transparent;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+}
+
+.qtkaru-btn-demo:hover {
+    background-color: rgba(13, 110, 253, 0.1);
+}
+
+.qtkaru-nav-link {
+    color: #6c757d;
+    font-weight: 500;
+    margin: 0 0.8rem;
+    transition: color 0.3s ease;
+}
+
+.qtkaru-nav-link:hover {
+    color: black;
+}
+
+/* About Custom CSS */
+
+.qtkaru-about-section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #345678;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.qtkaru-about-divider {
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(135deg, #88BDF2 0%, #384959 100%);
+    margin: 0 auto 2rem;
+}
+
+.qtkaru-about-section-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: #5a6a7a;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.qtkaru-about-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.qtkaru-about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.qtkaru-about-icon-wrapper {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #d4e6fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.qtkaru-about-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #345678;
+    margin-bottom: 1rem;
+}
+
+.qtkaru-about-card-text {
+    color: #5a6a7a;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.qtkaru-about-learn-more {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.qtkaru-about-learn-more:hover {
+    color: #3478cd;
+}
+
+.qtkaru-about-learn-more i {
+    margin-left: 0.25rem;
+    transition: transform 0.3s ease;
+}
+
+.qtkaru-about-learn-more:hover i {
+    transform: translateX(3px);
+}
+
+.qtkaru-about-icon {
+    color: #384959;
+    font-size: 1.5rem;
+}
+
+/* Features Custom CSS */
+
+.vk-features-section {
+    background-color: #c7e2ff;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+}
+
+.vk-features-section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+    position: relative;
+}
+
+.vk-features-section-heading::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: #5A87AD;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.vk-features-panel-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    overflow: hidden;
+}
+
+.vk-user-panel-header {
+    background: linear-gradient(135deg, #6A89A7 0%, #88BDF2 100%);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.vk-admin-panel-header {
+    background: linear-gradient(135deg, #384959 0%, #6A89A7 100%);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.vk-features-panel-description {
+    color: #f0f5fa;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.vk-feature-item {
+    padding: 15px 20px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #f0f5fa;
+}
+
+.vk-feature-item:last-child {
+    border-bottom: none;
+}
+
+.vk-feature-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #d9eaff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    color: #4A749C;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.vk-feature-content {
+    flex-grow: 1;
+}
+
+.vk-feature-title {
+    color: #5A87AD;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.vk-feature-description {
+    color: #77889a;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.vk-features-icon {
+    font-size: 20px;
+}
+
+/* How it Works Custom CSS */
+.vkh-how-it-works-section {
+    background-color: #e9f0f7;
+    padding: 60px 0;
+    font-family: Arial, sans-serif;
+}
+
+.vkh-works-section-title {
+    color: #445b71;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.vkh-works-section-subtitle {
+    color: #75889e;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.vkh-works-title-underline {
+    width: 80px;
+    height: 3px;
+    background-color: #6c8eac;
+    margin: 12px auto 25px;
+}
+
+.vkh-works-process-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.vkh-works-step-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 25px 15px;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vkh-works-step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.vkh-works-step-number {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #6A89A7 0%, #88BDF2 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    font-size: 14px;
+}
+
+.vkh-works-step-icon {
+    width: 60px;
+    height: 60px;
+    margin: 15px auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vkh-works-step-icon i {
+    font-size: 30px;
+    color: #6c8eac;
+}
+
+.vkh-works-step-title {
+    color: #445b71;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.vkh-works-step-description {
+    color: #75889e;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.vkh-works-connector {
+    position: absolute;
+    height: 2px;
+    background-color: #c8d4e0;
+    top: 50%;
+    z-index: 0;
+    width: 85%;
+    left: 7.5%;
+}
+
+@media (max-width: 767px) {
+    .vkh-works-connector {
+        display: none;
+    }
+
+    .vkh-works-step-card {
+        margin-bottom: 30px;
+    }
+}
+
+/* Why Choose Custom CSS */
+.qt-why-section {
+    background-color: #b8d8f8;
+    padding: 70px 0;
+    font-family: Arial, sans-serif;
+}
+
+.qt-choose-section-heading {
+    color: #3d5366;
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.qt-choose-heading-underline {
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(135deg, #6A89A7 0%, #88BDF2 100%);
+    margin: 0 auto 50px;
+}
+
+.qt-choose-section-feature-card {
+    background-color: white;
+    border-radius: 10px;
+    border-top: 4px solid #6c8eac;
+    /* Adding the blue top border */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.qt-choose-section-feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.qt-choose-features-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    background-color: #BDDDFC;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.qt-choose-features-icon-wrapper i {
+    font-size: 24px;
+    color: #3d5366;
+}
+
+.qt-choose-section-feature-title {
+    color: #3d5366;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.qt-choose-section-feature-description {
+    color: #6c7a8a;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+    .qt-choose-section-feature-card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Last Ready Custom CSS */
+.qtkaru-ready-banner-section {
+    background: linear-gradient(135deg, #88BDF2 0%, #384959 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.qtkaru-ready-content-wrapper {
+    text-align: center;
+    max-width: 800px;
+}
+
+.qtkaru-ready-main-heading {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.qtkaru-ready-section-subtext {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+
+.qtkaru-ready-section-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.qtkaru-ready-section-signup-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.qtkaru-ready-section-signup-button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+.qtkaru-ready-section-demo-button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.qtkaru-ready-section-demo-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.qtkaru-ready-section-button-icon {
+    margin-right: 0.5rem;
+}
+
+/* Footer Custom CSS */
+.qtkaru-footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 3rem 0;
+}
+
+.qtkaru-footer-logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.qtkaru-footer-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.qtkaru-social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.qtkaru-social-link {
+    color: #ffffff;
+    font-size: 1rem;
+    transition: opacity 0.3s ease;
+}
+
+.qtkaru-social-link:hover {
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.qtkaru-footer-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.qtkaru-footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.qtkaru-footer-link-item {
+    margin-bottom: 0.75rem;
+}
+
+.qtkaru-footer-link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.qtkaru-footer-link:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.qtkaru-contact-info {
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.qtkaru-contact-icon {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.qtkaru-contact-text {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+}
+
+.qtkaru-footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1.5rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.qtkaru-copyright {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.85rem;
+}
